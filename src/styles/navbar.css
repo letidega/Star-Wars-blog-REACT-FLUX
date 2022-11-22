@@ -1,0 +1,16 @@
+img {
+size: 15px;
+}
+
+.dropdown {
+    margin-right: 40px;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.dropdown-menu {    
+    min-width: 142px;
+}
+
+.navbar {
+    background-color: whitesmoke;
+}

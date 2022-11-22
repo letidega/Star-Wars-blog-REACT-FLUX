@@ -1,0 +1,72 @@
+.row>* {
+    flex-shrink: 100;
+}
+
+.tarjetas {
+    background-image: url(https://w0.peakpx.com/wallpaper/622/373/HD-wallpaper-black-space-black-star-stars.jpg);
+    background-color:#2A2A2A;
+    background-size: contain;
+}
+
+.custom-card {
+    background-color: whitesmoke;
+    height: 280px;
+}
+
+.card-body {
+    margin-bottom: 30px;
+}
+
+h5 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;   
+    color: whitesmoke;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.loading {
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    background-color: #FF4646;
+    border-color: #2A2A2A;
+    color: white;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+.heart-button {
+    display: inline-block;
+    border: none;
+    background: none;
+    display: inline-block;
+    text-align:center;
+    margin-left: 5px;
+}
+.heart:active {
+    fill:red;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    width: 20px;
+}
+.row {
+     --bs-gutter-x: none;
+} 

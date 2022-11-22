@@ -1,0 +1,14 @@
+
+footer {
+    background-image: url(https://drafthouse.com/assets/img/prototype/star-wars-stars.png);
+    background-size: contain;
+    background-color: black;
+    position: relative;
+    height: 110px;
+    color: white;
+    box-sizing:content-box;
+}
+
+.footer-text {
+    font-size: 20px;
+}
